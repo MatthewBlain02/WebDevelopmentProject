@@ -98,6 +98,12 @@ main .right a:hover{
 	margin: 10px;
 	font-weight: bold;
 }
+.imgWithTextRight{
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	margin-left: -100px;
+}
 /* Footer Design */
 footer {
   position: fixed;
