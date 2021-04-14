@@ -3,6 +3,12 @@
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 }
+h1, h2, h3, h4, h5, h6{
+	color: orange;
+}
+p{
+	font-weight: bold;
+}
 body{
 	background-image: url("../img/background.png");
 	background-size: cover;
@@ -76,7 +82,22 @@ main .right a:hover{
 	background-color: orange;
 	transition: 0.5s;
 }
-
+/*About Me*/
+.threeColumns{
+	margin-top: 20px;
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	grid-template-rows: 1fr;
+  	grid-gap: 0px 15px;
+  	text-align: left;
+  	width: 100%;
+  	background-color: rgba(255, 255, 255, 0.5);
+ 
+}
+.threeColumns ul li{
+	margin: 10px;
+	font-weight: bold;
+}
 /* Footer Design */
 footer {
   position: fixed;
