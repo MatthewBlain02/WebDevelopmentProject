@@ -133,3 +133,10 @@ footer {
   background-color: transparent;
   font-weight: bolder;
 }
+
+/* Scaling */
+@media (max-width: 1500px){
+	body{
+		background: none;
+	}
+}
