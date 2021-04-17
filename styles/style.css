@@ -32,14 +32,6 @@ th, td {
 	margin: 10px;
 	font-weight: bold;
 }
-.twoCol{
-  	display: grid;
-  	grid-template-columns: 1fr 1fr;
-  	grid-template-rows: 1fr;
-  	grid-gap: 0 10px;
-  	margin-top: 400px;
-  	margin-left: -600px;
-}
 .twoCol2{
   	display: grid;
   	grid-template-columns: 1fr 1fr;
@@ -171,23 +163,28 @@ footer {
 	#myelinText{
 		font-size: 13px;
 	}
+	.twoCol2{
+  	display: grid;
+  	grid-template-columns: 1fr;
+  	grid-template-rows: 1fr 1fr;
+  	grid-gap: 10px;
+	}
+}
+@media (max-width: 860px){
+	body{
+		background: none;
+	}
+	.imgWithTextRight{
+		margin-left: 10px;
+	}
+	#myelinText{
+		font-size: 13px;
+	}
 	.twoCol{
   	display: grid;
   	grid-template-columns: 1fr;
   	grid-template-rows: 1fr 1fr;
   	margin-left: -400px;
-	}
-	#hobbies{
-		margin-top: 200px;
-		margin-left: -800px;
-	}
-	#aboutJean{
-		margin-left: -400px;
-		margin-top: 60px;
-	}
-	#jeanPic{
-	margin-top: 60px;
-	margin-left: 100px;
 	}
 	.twoCol2{
   	display: grid;
@@ -198,4 +195,15 @@ footer {
 	#container{
 		display: block
 	}
+	.threeColumns{
+	margin-top: 20px;
+	display: grid;
+  	grid-template-columns: 1fr;
+  	grid-template-rows: 1fr 1fr 1fr;
+  	grid-gap: 0px 15px;
+  	text-align: left;
+  	width: 100%;
+  	background-color: rgba(255, 255, 255, 0.5);
+ 
+}
 }
