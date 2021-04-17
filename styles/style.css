@@ -37,6 +37,14 @@ th, td {
   	grid-template-columns: 1fr 1fr;
   	grid-template-rows: 1fr;
   	grid-gap: 0 10px;
+  	margin-top: 400px;
+  	margin-left: -600px;
+}
+.twoCol2{
+  	display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	grid-template-rows: 1fr;
+  	grid-gap: 0 10px;
 }
 .imgWithTextRight{
 	width: 100%;
@@ -122,7 +130,25 @@ main .right a:hover{
 	transition: 0.5s;
 }
 /* About MS */
-
+/* Meet Jean */
+#hobbies{
+	margin-top: 200px; 
+	margin-left: -1010px;
+}
+#aboutJean{
+	width: 100%;
+	text-align: center;
+	margin-left: -600px;
+	margin-top: 60px;
+}
+#jeanPic{
+	margin-top: 60px;
+	margin-left: 400px;
+}
+/* Donate To MS */
+#container{
+	display: inline-flex;
+}
 /* Footer Design */
 footer {
   position: fixed;
@@ -138,5 +164,38 @@ footer {
 @media (max-width: 1500px){
 	body{
 		background: none;
+	}
+	.imgWithTextRight{
+		margin-left: 40px;
+	}
+	#myelinText{
+		font-size: 13px;
+	}
+	.twoCol{
+  	display: grid;
+  	grid-template-columns: 1fr;
+  	grid-template-rows: 1fr 1fr;
+  	margin-left: -400px;
+	}
+	#hobbies{
+		margin-top: 200px;
+		margin-left: -800px;
+	}
+	#aboutJean{
+		margin-left: -400px;
+		margin-top: 60px;
+	}
+	#jeanPic{
+	margin-top: 60px;
+	margin-left: 100px;
+	}
+	.twoCol2{
+  	display: grid;
+  	grid-template-columns: 1fr;
+  	grid-template-rows: 1fr 1fr;
+  	grid-gap: 10px;
+	}
+	#container{
+		display: block
 	}
 }
