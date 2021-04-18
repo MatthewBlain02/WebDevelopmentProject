@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
-    <meta name="keywords" content="MS, ms, Awareness, MS Awareness, Donate to MS">
+    <meta name="keywords" content="MS, ms, Awareness, MS Awareness, About MS, about, MS, Donate to MS">
     <meta name="description" content="Home Page For MS Awareness">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-	<title>MS Awareness | Home Page</title>
+	<title>MS Awareness | Meet Jean</title>
 	<!-- Favicon Link Code -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -16,41 +16,30 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
-	<style>
-		body{
-			background-image: url("img/background.png");
-		}
-	</style>
 </head>
 <body>
-
 	<nav>
-		<img src="img/logo.png" alt="logo">
+		<img src="img/logo.png">
 		<h1>MS Awareness</h1>
-		<a style="text-decoration: underline; text-decoration-color: orange; " href="#">Home</a>
+		<a href="index.html">Home</a>
 		<a href="aboutMS.html">All About MS</a>
-		<a href="meetJean.html">Meet Jean</a>
+		<a href="#">Meet Jean</a>
 		<a href="donateToMS.html">Donate To MS</a>
-		<a href="contact.html">Contact Us</a>
-	</nav>
-
+		<a style="text-decoration: underline; text-decoration-color: orange;" href="#">Contact Us</a>
+	<!-- Contact Us Form -->
 	<main>
-		<section class="left">
-			<img src="img/nervoussystem.png" alt="nervoussystem">
-		</section>
-		<section class="right">
-			<h1>Welcome</h1>
-			<h2 style="margin-bottom: 40px; color: black;">Find All You Need To Know About MS.</h2>
-			<a href="aboutMS.html">All About MS</a>
-		</section>
+		<p>Contact Us Form</p>
+		<form class="contactform" action="contact.php" method="post">
+			<input type="text" name="name" placeholder="Full Name" required>
+			<input type="text" name="email" placeholder="Your Email" required>
+			<input type="text" name="subject" placeholder="Reason" required>
+			<textarea name="message" placeholder="Message" required></textarea>
+			<button type="submit" name="submit">Submit</button>
+		</form>
 
 
 	</main>
 
-	<footer>
-		<p>&copy;Copyright &#64;2021</p>
-		<p>This Is A College Project</p>
-	</footer>
-
+	</nav>
 </body>
 </html>

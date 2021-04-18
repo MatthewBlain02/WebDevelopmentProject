@@ -151,7 +151,44 @@ footer {
   background-color: transparent;
   font-weight: bolder;
 }
+/*---------------- Contact Us Form------------*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=password], textarea{
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 2px solid #ccc; /* Gray border */
+  border-color: rgb(22, 171, 204);
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
 
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button */
+button[type=submit]:hover {
+  background-color: rgb(22, 171, 204);
+}
+
+/* Add a background color and some padding around the form */
+main {
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 5px;
+  padding: 20px;
+}
 /* Scaling */
 @media (max-width: 1500px){
 	body{
